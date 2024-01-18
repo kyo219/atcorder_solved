@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "atcorder-solved"
+version = "0.1.0"
+description = ""
+authors = ["saikyo219 <k.higuchi.219@gmail.com>"]
+readme = "README.md"
+packages = [{include = "atcorder_solved"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+online-judge-tools = "^11.5.1"
+online-judge-template-generator = "^4.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
